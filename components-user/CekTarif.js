@@ -84,7 +84,7 @@ const CekTarif = () => {
       <MainNav />
       <div className={styles["container"]}>
         <div className={styles["wrapper"]}>
-          <h2 className={styles["title"]}>Cek Tarif Ongkir Bista Cargo</h2>
+          <h2 className={styles["title"]}>Check Rates Ongkir Bista Cargo</h2>
           <form onSubmit={submitHandler} className={styles["options"]}>
             <div className={styles["field"]}>
               <label htmlFor="cabangAsal" className={styles["field__label"]}>
@@ -151,7 +151,7 @@ const CekTarif = () => {
             </div>
             <div className={styles["field"]}>
               <span className={styles["field__label"]}></span>
-              <Button label="Cek Tarif" color="red" icon={<Money />} type="submit" />
+              <Button label="Check Rates" color="red" icon={<Money />} type="submit" />
             </div>
           </form>
         </div>

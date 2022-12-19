@@ -38,7 +38,7 @@ const CekPaket = () => {
       <MainNav />
       <div className={styles["container"]}>
         <div className={styles["card-1"]}>
-          <h2 className={styles["title"]}>Cek Paket</h2>
+          <h2 className={styles["title"]}>Check Shipment</h2>
           <form className={styles["form-container"]} onSubmit={submitHandler}>
             <label htmlFor="noResi">Nomor Resi</label>
             <input

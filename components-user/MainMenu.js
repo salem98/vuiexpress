@@ -22,8 +22,8 @@ const MainMenu = () => {
           <Search />
         </div>
         <div className={styles["text"]} onClick={trackingHandler}>
-          <h1>Cek Paket</h1>
-          <p>Lihat status paket terkini</p>
+          <h1>Check Shipment</h1>
+          <p>Kiểm tra vận đơn của bạn</p>
         </div>
       </div>
       <div className={`${styles["card"]} ${styles["red"]}`} onClick={ongkirHandler}>
@@ -31,8 +31,8 @@ const MainMenu = () => {
           <Money />
         </div>
         <div className={styles["text"]}>
-          <h1>Cek Tarif</h1>
-          <p>Lihat tarif Bista Cargo</p>
+          <h1>Check Rates</h1>
+          <p>Xem giá cước Shipmai</p>
         </div>
       </div>
       <div className={`${styles["card"]} ${styles["black"]}`}>
@@ -40,8 +40,8 @@ const MainMenu = () => {
           <Home />
         </div>
         <div className={styles["text"]}>
-          <h1>Cabang</h1>
-          <p>Lihat lokasi cabang terdekat</p>
+          <h1>Kho</h1>
+          <p>Xem địa chỉ kho</p>
         </div>
       </div>
     </section>
