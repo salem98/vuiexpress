@@ -1,0 +1,66 @@
+.bungkus {
+  width: 98%;
+  margin: 10px auto;
+}
+
+.container {
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  margin: 20px auto;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.action {
+  display: flex;
+  gap: 10px;
+}
+
+.action input {
+  width: 300px;
+  outline-style: none;
+  padding: 5px;
+}
+
+.container {
+  font-family: arial, sans-serif;
+  font-size: 12px;
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 6px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.container td {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #000;
+}
+
+.container th {
+  background-color: #000;
+  color: #fff;
+  padding: 8px;
+  border: 1px solid #000;
+}
+
+.container tr:nth-child(even) {
+  background-color: #dddddd;
+  border: 1px solid #000;
+}
+
+.btn-table > * {
+  margin: 5px auto;
+}

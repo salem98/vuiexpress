@@ -1,0 +1,117 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.card {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: all 1fr;
+  gap: 10px;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.5);
+  padding-top: 10px;
+}
+
+.card label {
+  font-size: 10px;
+}
+
+.card input,
+.card textarea,
+.card option,
+.card select,
+.card section label {
+  font-size: 12px;
+  padding: 5px;
+}
+
+.card input:invalid,
+.card textarea:invalid {
+  border: 1px solid red;
+  background-color: #ffcdcd;
+}
+
+.card__radio {
+  display: flex;
+  align-items: center;
+}
+
+.card__radio input:hover {
+  cursor: pointer;
+}
+
+.card__radio input:not(:first-child) {
+  margin-left: 30px;
+}
+
+.btn-order {
+  justify-self: end;
+  padding: 10px;
+  background-color: red;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn-order:hover {
+  cursor: pointer;
+  background-color: #000;
+}
+
+.btn-order:disabled {
+  background-color: #ddd;
+  color: #bbb;
+  cursor: not-allowed;
+}
+
+.error-note {
+  margin-top: -10px;
+  color: red;
+  font-size: 8px;
+}
+
+.error-field {
+  background-color: #ffcdcd;
+}
+
+.dropdown-container {
+  width: 100%;
+  position: relative;
+}
+.dropdown-list {
+  width: 100%;
+  margin-top: -20px;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+.dropdown-select {
+  padding: 5px;
+  transition: 0.3s;
+}
+
+.dropdown-select:hover {
+  cursor: pointer;
+  background-color: red;
+}
+
+@media screen and (max-width: 760px) {
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}

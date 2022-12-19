@@ -1,0 +1,86 @@
+.wrapper {
+  width: 100%;
+  background-color: red;
+  padding-bottom: 50px;
+}
+
+.container {
+  width: 100%;
+  padding: 0 20px;
+  background-color: red;
+  color: #fff;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.kontak {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  row-gap: 10px;
+}
+
+.detail-kontak {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.icon {
+  width: 25px;
+}
+
+.socmed-icon {
+  width: 40px;
+  filter: invert(100%) sepia(6%) saturate(75%) hue-rotate(57deg) brightness(107%) contrast(107%);
+}
+
+.text p,
+.text h5 {
+  margin: 0;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  row-gap: 10px;
+}
+
+.link ul {
+  list-style: none;
+  padding: 0 0 0 10px;
+  margin: 0;
+}
+
+.link h3,
+.social h3 {
+  margin: 0;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  row-gap: 10px;
+}
+
+.social-detail {
+  display: flex;
+  column-gap: 10px;
+}
+
+@media screen and (max-width: 760px) {
+  .container {
+    padding: 0 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}

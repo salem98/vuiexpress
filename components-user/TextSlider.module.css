@@ -1,0 +1,88 @@
+.slider {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.slides {
+  width: 300%;
+  height: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 1s ease-out;
+}
+
+.slides input {
+  display: none;
+}
+
+.slide {
+  width: 100%;
+  transition: 2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide h1 {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  width: 60%;
+  margin-bottom: 0;
+  font-size: 3em;
+}
+.slide p {
+  color: #fff;
+  text-transform: capitalize;
+  text-align: center;
+  width: 50%;
+}
+
+.nav-manual {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-top: -40px;
+}
+
+.manual-btn {
+  border: 2px solid red;
+  padding: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.manual-btn-checked {
+  border: 2px solid #fff;
+  background-color: red;
+  padding: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.manual-btn:not(:last-child),
+.manual-btn-checked:not(:last-child) {
+  margin-right: 20px;
+}
+
+.manual-btn:hover {
+  background-color: red;
+}
+
+@media screen and (max-width: 760px) {
+  .slide h1 {
+    color: #fff;
+    width: 90%;
+    font-size: 2em;
+  }
+  .slide p {
+    color: #fff;
+    text-transform: capitalize;
+    width: 90%;
+    font-size: 1em;
+  }
+}

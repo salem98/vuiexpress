@@ -1,0 +1,57 @@
+.container {
+  width: 360px;
+  height: 280px;
+  padding: 20px;
+  background-color: #fff;
+  border: 2px solid limegreen;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+}
+
+.success-icon {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: limegreen;
+}
+
+.success-icon svg {
+  width: 100px;
+}
+
+.action-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.close-icon {
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  color: lime;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.close-icon svg {
+  width: 30px;
+  height: 30px;
+  fill: #fff;
+}
+
+.close-icon:hover {
+  cursor: pointer;
+  color: red;
+}

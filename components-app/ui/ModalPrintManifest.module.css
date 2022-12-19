@@ -1,0 +1,26 @@
+.container {
+  width: 80mm;
+  height: 100mm;
+  background-color: #fff;
+  font-size: 10px;
+  padding: 5mm;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container * {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header img {
+  width: 60%;
+}

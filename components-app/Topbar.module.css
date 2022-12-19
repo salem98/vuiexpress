@@ -1,0 +1,104 @@
+.container {
+  width: 100%;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+}
+
+.user-icon:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: transform 0.3s ease-in;
+}
+
+.menu-icon {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.4);
+  animation: top-down 0.2s forwards;
+}
+
+@keyframes top-down {
+  0% {
+    top: -100%;
+  }
+  80% {
+    top: 10%;
+  }
+  100% {
+    top: 0%;
+  }
+}
+
+.menu-icon__btn {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  align-self: flex-end;
+  color: #fff;
+}
+
+.menu-icon__btn button svg {
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  margin: 0;
+}
+
+.menu-icon__btn button {
+  padding: 0;
+}
+
+.user-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.user-id {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.user-email {
+  margin: 0;
+  color: #555;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.container svg {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  color: #555;
+}
+
+.hamburger-icon {
+  display: none;
+}
+
+@media screen and (max-width: 760px) {
+  .hamburger-icon {
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 101;
+  }
+
+  .hamburger-icon:hover {
+    cursor: pointer;
+  }
+}

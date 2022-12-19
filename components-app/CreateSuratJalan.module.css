@@ -1,0 +1,55 @@
+.container {
+  width: auto;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.form-wrapper {
+  width: 100%;
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.field {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.field label {
+  width: 40%;
+}
+
+.field input,
+.field select,
+.field option {
+  width: 100%;
+  padding: 10px;
+}
+
+.container-manifest {
+  width: 100%;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: red;
+  border: 1px solid #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-manifest-detail {
+  width: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}

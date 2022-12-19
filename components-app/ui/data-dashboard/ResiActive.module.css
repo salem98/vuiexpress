@@ -1,0 +1,64 @@
+.table-penerima {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.table-penerima__nama {
+  font-size: 12px;
+  padding: 0;
+}
+
+.table-penerima__nohp {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 0;
+}
+
+.table-penerima__alamat {
+  font-size: 10px;
+  color: #555;
+  text-align: left;
+  padding: 0;
+}
+
+.table-pembayaran {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+}
+
+.table-pembayaran__option {
+  font-size: 12px;
+  padding: 0;
+}
+
+.table-pembayaran__total {
+  font-size: 12px;
+  font-weight: 800;
+  padding: 0;
+}
+
+.table-resi {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+}
+
+.table-resi__noResi {
+  font-size: 14px;
+  padding: 0;
+}
+
+.table-resi__tgl {
+  font-size: 10px;
+  padding: 0;
+  color: #555;
+  text-align: right;
+}

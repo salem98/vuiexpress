@@ -1,0 +1,78 @@
+.container {
+  width: 200mm;
+  height: 89mm;
+  background-color: #fff;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  font-size: 9px;
+  align-items: start;
+  justify-content: start;
+  padding: 5mm;
+}
+
+.container div > * {
+  margin-block: 2px;
+}
+
+.header {
+  grid-column: span 7;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #000;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-img {
+  grid-column: span 4;
+}
+.barcode-resi {
+  grid-column: span 3;
+  justify-items: end;
+  display: flex;
+}
+
+.barcode-resi img {
+  width: 50px;
+  height: 50px;
+}
+
+.barcode-resi div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.note {
+  font-size: 7px;
+  color: #333;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.span-2 {
+  grid-column: span 2;
+}
+
+.footer {
+  grid-column: span 7;
+  margin-top: 10px;
+  border-top: 1px solid red;
+  color: red;
+  font-size: 7px;
+}
+
+.underline {
+  width: 90%;
+  border-bottom: 2px solid #000;
+}
+
+@media print {
+  @page {
+    size: auto;
+    margin: 0mm;
+  }
+}

@@ -1,0 +1,15 @@
+.container {
+  width: 360px;
+  height: 280px;
+  padding: 20px;
+  background-color: transparent;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container svg {
+  width: 100px;
+  height: 200px;
+}

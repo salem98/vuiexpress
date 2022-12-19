@@ -1,0 +1,42 @@
+.container {
+  width: auto;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.cabang-option {
+  width: 500px;
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: red;
+  color: #fff;
+  padding: 10px;
+}
+
+.cabang-option label {
+  width: 30%;
+}
+
+.cabang-option select {
+  width: 70%;
+  padding: 5px;
+}
+
+.container-manifest {
+  width: 100%;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: red;
+  border: 1px solid #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-manifest-detail {
+  width: auto;
+  padding: 10px;
+}

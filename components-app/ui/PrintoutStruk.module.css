@@ -1,0 +1,88 @@
+.container {
+  width: 80mm;
+  height: 100mm;
+  background-color: #fff;
+  font-size: 8px;
+  padding: 2mm;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.container * {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.header img {
+  width: 60%;
+}
+
+.pengirim {
+  margin-top: 2mm;
+  width: 50mm;
+  text-align: left;
+}
+
+.penerima {
+  width: 100%;
+  text-align: left;
+  margin-top: 2mm;
+}
+
+.detail {
+  width: 100%;
+  margin-top: 2mm;
+}
+
+.detail > * {
+  vertical-align: top;
+}
+
+.no-wrap {
+  white-space: nowrap;
+}
+
+.text-top {
+  vertical-align: text-top;
+}
+
+.barcode-resi {
+  width: 15mm;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.barcode-resi p {
+  font-size: 4px;
+  text-align: center;
+}
+.barcode-resi span img {
+  width: 20mm;
+  height: 20mm;
+  position: absolute;
+  right: -2mm;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  border-top: 1px dotted #000;
+  margin-top: 2mm;
+}
+
+.footer p {
+  font-size: 6px;
+}

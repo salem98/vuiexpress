@@ -1,0 +1,198 @@
+.btn {
+  padding: 5px 10px;
+  border: none;
+  outline-style: none;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.btn:disabled {
+  background-color: #ccc;
+  color: #999;
+}
+
+.full {
+  width: 100%;
+}
+
+.btn h4 {
+  padding: 0;
+  margin: 0;
+  margin-right: 5px;
+}
+
+.btn svg {
+  width: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.btn:hover,
+.btn:focus {
+  cursor: pointer;
+}
+
+.red {
+  background-color: red;
+  color: #fff;
+  border: 2px solid transparent;
+}
+
+.red:hover {
+  background-color: #000;
+}
+
+.red:active,
+.red:focus {
+  background-color: transparent;
+  border: 2px solid red;
+  color: red;
+}
+
+.red:disabled {
+  background-color: #ccc;
+  color: #999;
+  cursor: not-allowed;
+}
+
+.green {
+  background-color: limegreen;
+  color: #fff;
+  border: 2px solid transparent;
+}
+
+.green:hover {
+  background-color: #000;
+}
+
+.green:active,
+.green:focus {
+  background-color: transparent;
+  border: 2px solid limegreen;
+  color: limegreen;
+}
+
+.green:disabled {
+  background-color: #ccc;
+  color: #999;
+  cursor: not-allowed;
+}
+
+.cornflowerblue {
+  background-color: cornflowerblue;
+  color: #fff;
+  border: 2px solid transparent;
+}
+
+.cornflowerblue:hover {
+  background-color: #000;
+}
+
+.cornflowerblue:active,
+.cornflowerblue:focus {
+  background-color: transparent;
+  border: 2px solid cornflowerblue;
+  color: cornflowerblue;
+}
+
+.cornflowerblue:disabled {
+  background-color: #ccc;
+  color: #999;
+  cursor: not-allowed;
+}
+
+.blue {
+  background-color: blue;
+  color: #fff;
+  border: 2px solid transparent;
+}
+
+.blue:hover {
+  background-color: #000;
+}
+
+.blue:active.blue:focus {
+  background-color: transparent;
+  border: 2px solid blue;
+  color: blue;
+}
+
+.blue:disabled {
+  background-color: #ccc;
+  color: #999;
+  cursor: not-allowed;
+}
+
+.orange {
+  background-color: darkorange;
+  color: #fff;
+  border: 2px solid transparent;
+}
+
+.orange:hover {
+  background-color: #000;
+}
+
+.orange:active,
+.orange:focus {
+  background-color: transparent;
+  border: 2px solid darkorange;
+  color: darkorange;
+}
+
+.orange:disabled {
+  background-color: #ccc;
+  color: #999;
+  cursor: not-allowed;
+}
+
+.black {
+  background-color: #000;
+  color: #fff;
+  border: 2px solid transparent;
+}
+
+.black:hover {
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.black:active,
+.black:focus {
+  background-color: transparent;
+  border: 2px solid #000;
+  color: #000;
+}
+
+.black:disabled {
+  background-color: #ccc;
+  color: #999;
+  cursor: not-allowed;
+}
+
+.greenoutlined {
+  background-color: transparent;
+  border: 2px solid limegreen;
+  color: limegreen;
+}
+
+.greenoutlined:hover {
+  background-color: #000;
+}
+
+.greenoutlined:active,
+.greenoutlined:focus {
+  background-color: limegreen;
+  color: #fff;
+  border: 2px solid transparent;
+}
+
+.greenoutlined:disabled {
+  background-color: #ccc;
+  color: #999;
+  cursor: not-allowed;
+}
